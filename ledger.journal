@@ -1,0 +1,78 @@
+account 0 Anlagevermögen:Maschinen (0440)  ; type:Equity
+alias 0440=0 Anlagevermögen:Maschinen (0440)
+
+account 1 Umlaufvermögen:Forderungen aus Lieferungen und Leistungen (1200)  ; type:Asset
+alias 1200=1 Umlaufvermögen:Forderungen aus Lieferungen und Leistungen (1200)
+
+account 1 Umlaufvermögen:Vorsteuer 19% (1406)  ; type:Asset
+alias 1406=1 Umlaufvermögen:Vorsteuer 19% (1406)
+
+account 1 Umlaufvermögen:Geldtransit (1460)  ; type:Asset
+alias 1460=1 Umlaufvermögen:Geldtransit (1460)
+
+account 1 Umlaufvermögen:Commerzbank (1810)  ; type:Asset
+alias 1810=1 Umlaufvermögen:Commerzbank (1810) 
+
+account 1 Umlaufvermögen:PayPal (1820)  ; type:Asset
+alias 1820=1 Umlaufvermögen:PayPal (1820)
+
+account 1 Umlaufvermögen:PayPal (1820):Fremdwährung  ; type:Asset
+alias 1820F=1 Umlaufvermögen:PayPal (1820):Fremdwährung
+
+account 2 Eigenkapitalkonten/Fremdkapitalkonten:Privatentnahmen (2100)  ; type:Asset
+alias 2100=2 Eigenkapitalkonten/Fremdkapitalkonten:Privatentnahmen (2100)
+
+account 2 Eigenkapitalkonten/Fremdkapitalkonten:Privateinlagen (2180)  ; type:Asset
+alias 2180=2 Eigenkapitalkonten/Fremdkapitalkonten:Privateinlagen (2180)
+
+account 2 Eigenkapitalkonten/Fremdkapitalkonten:Zuwendungen, Spenden (2250)  ; type:Asset
+alias 2250=2 Eigenkapitalkonten/Fremdkapitalkonten:Zuwendungen, Spenden (2250)
+
+account 3 Fremdkapitalkonten:Verbindlichkeiten aus Lieferungen und Leistungen (3300)  ; type:Liability
+alias 3300=3 Fremdkapitalkonten:Verbindlichkeiten aus Lieferungen und Leistungen (3300)
+
+account 3 Fremdkapitalkonten:Kreditkartenabrechnung (3610) ;  type:Liability
+alias 3610=3 Fremdkapitalkonten:Kreditkartenabrechnung (3610)
+
+account 3 Fremdkapitalkonten:Umsatzsteuer 7% (3801)  ; type:Liability
+alias 3801=3 Fremdkapitalkonten:Umsatzsteuer 7% (3801)
+
+account 3 Fremdkapitalkonten:Umsatzsteuer 19% (3806)  ; type:Liability
+alias 3806=3 Fremdkapitalkonten:Umsatzsteuer 19% (3806)
+
+account 4 Betriebliche Erträge:Erlöse als Kleinunternehmer i. S. d. § 19 Abs. 1 UStG (4185)  ; type:Revenue
+alias 4185=4 Betriebliche Erträge:Erlöse als Kleinunternehmer i. S. d. § 19 Abs. 1 UStG (4185)
+
+account 4 Betriebliche Erträge:Umsatzerlöse (4000)  ; type:Revenue
+alias 4000=4 Betriebliche Erträge:Unbekannte Umsätze (4000)
+
+account 4 Betriebliche Erträge:Umsatzerlöse (4200)  ; type:Revenue
+alias 4200=4 Betriebliche Erträge:Umsatzerlöse (4200)
+
+account 4 Betriebliche Erträge:Erlöse 19% (4400)  ; type:Revenue
+alias 4400=4 Betriebliche Erträge:Erlöse 19% (4400)
+
+account 4 Betriebliche Erträge:Investitionszuschüsse (steuerpflichtig) (4975)  ; type:Revenue
+alias 4975=4 Betriebliche Erträge:Investitionszuschüsse (steuerpflichtig) (4975)
+
+account 6 Betriebliche Aufwendungen:Abschreibungen auf Sachanlagen (ohne AfA auf Kfz und Gebäude) (6300)  ; type:Expense
+alias 6220=6 Betriebliche Aufwendungen:Abschreibungen auf Sachanlagen (ohne AfA auf Kfz und Gebäude) (6300)
+
+account 6 Betriebliche Aufwendungen:Sonstige betriebliche Aufwendungen (6300)  ; type:Expense
+alias 6300=6 Betriebliche Aufwendungen:Sonstige betriebliche Aufwendungen (6300)
+
+account 6 Betriebliche Aufwendungen:Mieten für Einrichtungen (bewegliche Wirtschaftsgüter) (6835)  ; type:Expense
+alias 6835=6 Betriebliche Aufwendungen:Mieten für Einrichtungen (bewegliche Wirtschaftsgüter) (6835)
+
+account 5 Betriebliche Aufwendungen:Wareneingang 7% Vorsteuer (5300)  ; type:Expense
+alias 5300=5 Betriebliche Aufwendungen:Wareneingang 7% Vorsteuer (5300)
+
+account 5 Betriebliche Aufwendungen:Wareneingang 19% Vorsteuer (5400)  ; type:Expense
+alias 5400=5 Betriebliche Aufwendungen:Wareneingang 19% Vorsteuer (5400)
+
+account 6 Betriebliche Aufwendungen:Sonstige betriebliche Aufwendungen (6300):Nebenkosten des Geldverkehrs (6855)  ; type:Expense
+alias 6855=6 Betriebliche Aufwendungen:Sonstige betriebliche Aufwendungen (6300):Nebenkosten des Geldverkehrs (6855)
+
+#include lib/assets/*
+include lib/journals/*/*.journal
+include lib/documents/*/*/*.journal
