@@ -26,7 +26,7 @@ Sets up the initial folder structure:
 
 ##### ledger.journal
 
-Collects all the journal files in the above file structure and delivers an alias based chart of account. This file should normally be untouched and is the working book. Due to the wildcard-setup everybody can choose his or her own workflow.
+Collects all the journal files in the above file structure and delivers an alias based chart of account, up to this day incomplete [SKR04](https://www.datev.de/web/de/datev-shop/material/skr-04-englisch/). This file should normally be untouched and is the working book. Due to the wildcard-setup everybody can choose his or her own workflow.
 
 ##### Bank CSV - hledger
 
