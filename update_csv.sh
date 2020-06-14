@@ -65,7 +65,7 @@ do
 						then
 							# user input ask to overwrite
 							# todo adjust setting for N!
-							echo -n -e "\n \t\t\tJournal availlable - Overwrite (y/n/A)?\n\t\t\t"
+							echo -n -e "\n \t\t\tJournal available - Overwrite (y/n/A)?\n\t\t\t"
 							
 							# Read the option and store in a variable
 						#	while getopts "an" option; do

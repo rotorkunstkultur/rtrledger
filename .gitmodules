@@ -1,0 +1,3 @@
+[submodule "lib/documents/commerzbank"]
+	path = lib/documents/commerzbank
+	url = https://github.com/rotorkunstkultur/rtrledger_commerzbank.git
