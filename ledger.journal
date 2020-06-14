@@ -31,7 +31,7 @@ alias 2250=2 Eigenkapitalkonten/Fremdkapitalkonten:Zuwendungen, Spenden (2250)
 account 3 Fremdkapitalkonten:Verbindlichkeiten aus Lieferungen und Leistungen (3300)  ; type:Liability
 alias 3300=3 Fremdkapitalkonten:Verbindlichkeiten aus Lieferungen und Leistungen (3300)
 
-account 3 Fremdkapitalkonten:Kreditkartenabrechnung (3610) ;  type:Liability
+account 3 Fremdkapitalkonten:Kreditkartenabrechnung (3610)  ; type:Liability
 alias 3610=3 Fremdkapitalkonten:Kreditkartenabrechnung (3610)
 
 account 3 Fremdkapitalkonten:Umsatzsteuer 7% (3801)  ; type:Liability
