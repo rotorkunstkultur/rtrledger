@@ -43,7 +43,7 @@ do
 
         if [[ ! -f "lib/assets/$dataFilename.journal"  ]]
         then
-            ./lib/tools/depreciateforledger/src/depreciate --cost="$dataValue" --residual=1 --method="straight" --periods="$dataTime" --periodtype="$dataTimeUnit"  -a "0 Anlagevermögen:Maschinen (0440)" -e " Betriebliche Aufwendungen:Abschreibungen auf Sachanlagen (ohne AfA auf Kfz und Gebäude) (6300)" --currency="€" --date="$dataDate" -n "$dataName" | sed '1,3d' > "lib/assets/$dataFilename.journal"
+            ./lib/tools/depreciateforledger/src/depreciate --cost="$dataValue" --residual=1 --method="straight" --periods="$dataTime" --periodtype="$dataTimeUnit"  -a "0 Anlagevermögen:Maschinen (0440)" -e "6 Betriebliche Aufwendungen:Abschreibungen auf Sachanlagen (ohne AfA auf Kfz und Gebäude) (6300)" --currency="€" --date="$dataDate" -n "$dataName" | sed '1,3d' > "lib/assets/$dataFilename.journal"
             echo -e "\t${GREEN}DONE${NC}"
         else 
             echo -e "\t${RED}EXISTS${NC}"
