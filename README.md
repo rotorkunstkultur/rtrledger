@@ -80,7 +80,6 @@ Workflow:
 #### Finalize: Currency Conversion / Doubles 
 * [TODO]
 * Automatic processing of currency conversion eg. Paypal/Credit Card based on comments
-* Check for double posts that happen to appear when automating various bank imports.
 * Find and do some method to check and finalize monthly bookings by committing to git, hash  - chance to create some gobd-save solution?
 
 ## Technologies
