@@ -57,10 +57,13 @@ works with:
 * A latex based invoice template that takes data from csv
 
 #### Depreciation
-* TODO
-* Scan for deprecate: tags
-* use timespan
+* Depreciation is set by posting a good to 0440 Machines account and setting a eg. depreciate:7years
+* Its straight depreciation only atm
+Workflow:
+* Scan for depreciate: tags and allow depreciate:xyears or depreciate:ymonths
+* use start the month AFTER buying
 * write lib/assets/$comment.journal from day 1 monthly till timespan+day1 
+* TODO: Beautify code, offer options, create German "Sammelabschreibung/Poolabschreibung" (Group depreciation?) for goods priced between 250-1000€
 
 #### Zugferd / PDF Invoice Management
 * TODO
@@ -68,7 +71,7 @@ works with:
 * Check for depreciation limits and assist in handling those
 * Remember choices for positions, allow comments, tags
 
-#### Finalize: Currency Convertion / Doubles 
+#### Finalize: Currency Conversion / Doubles 
 * TODO
 * Automatic processing of currency conversion eg. Paypal/Credit Card based on comments
 * Check for double posts that happen to appear when automating various bank imports.

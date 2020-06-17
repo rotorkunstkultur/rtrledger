@@ -1,3 +1,6 @@
 [submodule "lib/documents/commerzbank"]
 	path = lib/documents/commerzbank
 	url = https://github.com/rotorkunstkultur/rtrledger_commerzbank.git
+[submodule "lib/tools/depreciateforledger"]
+	path = lib/tools/depreciateforledger
+	url = https://github.com/tazzben/DepreciateForLedger

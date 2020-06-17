@@ -17,7 +17,7 @@ done
 
 echo -n "Creating folder structure "
 # todo more detailed check if existing, etc
-mkdir lib lib/documents lib/tools lib/journals lib/journals/$(date +%Y) >/dev/null 2>&1 && echo -e "\t${GREEN}DONE${NC}" || echo -e "\n\t${RED}FAILURE:${NC} They might already exist ;)"
+mkdir lib lib/documents lib/assets lib/tools lib/journals lib/journals/$(date +%Y) >/dev/null 2>&1 && echo -e "\t${GREEN}DONE${NC}" || echo -e "\n\t${RED}FAILURE:${NC} They might already exist ;)"
 
 dialog --clear --backtitle "Backtitle here" --title "Title here" --menu "Choose one of the following options:" 15 40 4 \
 1 "Option 1" \
