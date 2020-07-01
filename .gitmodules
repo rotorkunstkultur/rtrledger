@@ -4,3 +4,6 @@
 [submodule "lib/tools/depreciateforledger"]
 	path = lib/tools/depreciateforledger
 	url = https://github.com/tazzben/DepreciateForLedger
+[submodule "lib/tools/hledger-skr04"]
+	path = lib/tools/hledger-skr04
+	url = https://github.com/rotorkunstkultur/hledger-skr04

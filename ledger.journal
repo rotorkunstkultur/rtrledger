@@ -73,6 +73,4 @@ alias 5400=5 Betriebliche Aufwendungen:Wareneingang 19% Vorsteuer (5400)
 account 6 Betriebliche Aufwendungen:Sonstige betriebliche Aufwendungen (6300):Nebenkosten des Geldverkehrs (6855)  ; type:Expense
 alias 6855=6 Betriebliche Aufwendungen:Sonstige betriebliche Aufwendungen (6300):Nebenkosten des Geldverkehrs (6855)
 
-#include lib/assets/*
-include lib/journals/*/*.journal
-include lib/documents/*/*/*.journal
+include import.journal

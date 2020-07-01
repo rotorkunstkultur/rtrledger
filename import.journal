@@ -1,0 +1,3 @@
+#include lib/assets/*
+include lib/journals/*/*.journal
+include lib/documents/*/*/*.journal
